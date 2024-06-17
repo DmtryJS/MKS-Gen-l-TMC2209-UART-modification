@@ -4,7 +4,7 @@ This document shows how to connect TMC2209 drivers via UART to the older MKS GEN
 
 ### MKS modifications
 
-There's a common wiring scheme for TMC drivers on this board, but I propose simplifying it by soldering resistors directly onto the board and connecting the drivers with a single wire. These resistors would be soldered on the reverse side of the board, on the AUX-2 connector. The resistor value should be 1 kΩ.
+There's a common wiring scheme for TMC drivers on this board, but I propose simplifying it by soldering resistors directly onto the board and connecting the drivers with a single wire. These resistors would be soldered on the reverse side of the board, on the AUX-2 connector. The resistor value should be 1 kΩ. I used 0805 smd resistor.
 
  ![Resistors wiring](resistors_wiring.jpg)
 

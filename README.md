@@ -11,7 +11,7 @@ There's a common wiring scheme for TMC drivers on this board, but I propose simp
 Optionally, if you need to connect the E1 driver via UART, you'll need to solder two wires directly to the microcontroller, specifically to ports PD1 (44 pin) and PB6 (Pin 25). I used a small 3x4mm board to accommodate the resistor. The connection diagram is shown below.
 
  ![E1 schema](AVR_wiring.png)
- ![E1 schema](E1_wiring.jpg)
+ ![E1 schema](e1_wiring.jpg)
 
  ### TMC2209 modifications
 
